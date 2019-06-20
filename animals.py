@@ -1,5 +1,5 @@
 
-animals = ['dog', 'cat', 'parrot']
+animals = ['dog', 'cat', 'parrot', "fish"]
 
 for animal in animals:
 	print("A " + animal + " would make a great pet.")
