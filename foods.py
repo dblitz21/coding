@@ -7,7 +7,9 @@ my_foods.append('cannoli')
 friends_foods.append('ice cream')
 
 print("My favorite foods are:")
-print(my_foods)
+for food in my_foods:
+	print(food.title())
 
 print("\nMy friend's foods are:")
-print(friends_foods)
+for food in friends_foods:
+	print(food.title())
